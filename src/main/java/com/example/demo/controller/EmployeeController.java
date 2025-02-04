@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/emp")
+@RequestMapping()
 public class EmployeeController {
 
     // POS
@@ -18,7 +18,7 @@ public class EmployeeController {
     private EmployeeService employeeService1;
 
     // POST = Add/Create
-    @PostMapping("/save")
+    @PostMapping("/create")
     public ResponseEntity<Employee> create(@RequestBody Employee employee) {
         if (employeeService1.saveemployeeModel(employee)) {
             return ResponseEntity.status(HttpStatus.CREATED).body(employee);
