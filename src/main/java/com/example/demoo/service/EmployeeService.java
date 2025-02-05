@@ -1,8 +1,8 @@
-package com.example.demo.service;
+package com.example.demoo.service;
 
-import com.example.demo.Exception.EmployeeAlreadyExistsException;
-import com.example.demo.model.Employee;
-import com.example.demo.repository.EmployeeRepository;
+import com.example.demoo.Exception.EmployeeAlreadyExistsException;
+import com.example.demoo.model.Employee;
+import com.example.demoo.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

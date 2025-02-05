@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.demoo.repository;
 
-import com.example.demo.model.Employee;
+import com.example.demoo.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepository extends JpaRepository<Employee,Long> {

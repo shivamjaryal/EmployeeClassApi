@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demoo.controller;
 
 public @interface RestController {
 }
