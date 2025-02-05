@@ -1,8 +1,8 @@
-name : dev
+name : master
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ master ]
 
 jobs:
   builds:
