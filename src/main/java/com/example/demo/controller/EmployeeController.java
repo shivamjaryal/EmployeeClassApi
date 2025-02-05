@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController//rest
+@RestController//rest3
 @RequestMapping("/emp")
 public class EmployeeController {
 
