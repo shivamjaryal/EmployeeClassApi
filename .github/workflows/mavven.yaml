@@ -20,6 +20,12 @@ jobs:
         run: |
           mvn clean install
 
+      - name: running the jar file
+        id : rtjf
+        run : |
+          cp ${{ github.workspace }}/src/target/demo-0.0.1-SNAPSHOT.jar ${{ github.workspace }}/test.jar
+          ls = ltr
+          java = jar test.jar
 
 
 
