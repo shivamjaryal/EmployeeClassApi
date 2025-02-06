@@ -23,9 +23,9 @@ jobs:
       - name: running the jar file
         id : rtjf
         run : |
-          cp ${{ github.workspace }}/target/demo-0.0.1-SNAPSHOT.jar ${{ github.workspace }}/demo-0.0.1-SNAPSHOT.jar &
+          cp ${{ github.workspace }}/target/demo-0.0.1-SNAPSHOT.jar ${{ github.workspace }}/demo-0.0.1-SNAPSHOT.jar 
           ls -ltr
-          java -jar demo-0.0.1-SNAPSHOT.jar
+          java -jar demo-0.0.1-SNAPSHOT.jar &
 
       - name: terminating the jar file
         id: ttjf
